@@ -1,0 +1,10 @@
+{"v":0,"level":30,"name":"newrelic","hostname":"Nicoles-MacBook-Pro.local","pid":36792,"time":"2020-04-17T07:04:07.840Z","msg":"Using New Relic for Node.js. Agent version: 6.5.0; Node version: v8.17.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Nicoles-MacBook-Pro.local","pid":36792,"time":"2020-04-17T07:04:08.112Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Nicoles-MacBook-Pro.local","pid":36792,"time":"2020-04-17T07:04:08.329Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Nicoles-MacBook-Pro.local","pid":36792,"time":"2020-04-17T07:04:08.329Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Nicoles-MacBook-Pro.local","pid":36792,"time":"2020-04-17T07:04:10.473Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Nicoles-MacBook-Pro.local","pid":36792,"time":"2020-04-17T07:04:10.473Z","msg":"Connected to collector-001.newrelic.com:443 with agent run ID BabJ_Hr--kH0ACj9Zg_T2xxemVVYAAgBAAAnIQEAAI-4AgQP09saAwAFNi41LjAAGU5pY29sZXMtTWFjQm9vay1Qcm8ubG9jYWwAFFJlbGF4bHkgUHJveHkgU2VydmVy.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Nicoles-MacBook-Pro.local","pid":36792,"time":"2020-04-17T07:04:10.473Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2686310/applications/265542426","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Nicoles-MacBook-Pro.local","pid":36792,"time":"2020-04-17T07:04:10.475Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"custom_event_data\":83,\"analytic_event_data\":833}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Nicoles-MacBook-Pro.local","pid":36792,"time":"2020-04-17T07:04:10.479Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Nicoles-MacBook-Pro.local","pid":36792,"time":"2020-04-17T07:04:11.481Z","msg":"Starting initial 1000ms harvest."}

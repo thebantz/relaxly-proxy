@@ -1,27 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
-    <title>Relax.ly</title>
+    <!-- <link rel="stylesheet" href="/style.css"> -->
+    <title>RelaxDB</title>
 </head>
-<body id="Relaxly_body">
-    
 
+<body>
     <div id="full_title">
         <img id="R_Icon" src="/../images/transparentrCOPY.png" alt=""><span id="title">elax.ly</span>
     </div>
-    <!-- apps -->
-    <!-- <div id="Header-images"></div> -->
-    <div id="app"></div>
-    <!-- <div id="KimReviews"></div> -->
-    <!-- <div id="related-homes"></div> -->
-    <!-- servers -->
-    <!-- <script src="http://localhost:2555/header-img/bundle.js"></script> -->
-    <script src="http://13.58.74.94:3000/bundle.js"></script>
-    <!-- <script src="http://localhost:2500/bundle.js"></script>
-    <script src="http://localhost:1028/bundle.js"></script> -->
-
+    <div style="display: flex;">
+        <div id="app"></div>
+        <div id="RelatedHomesModule"></div>
+    </div>
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="http://52.53.210.210/bundle.js"></script>
+    <script src="http://ec2-18-144-29-67.us-west-1.compute.amazonaws.com/bundle.js"></script>
+    <!-- see: https://reactjs.org/docs/react-without-jsx.html -->
+    <script>
+        ReactDOM.render(
+            React.createElement(App),
+            document.getElementById('app')
+        );
+        ReactDOM.render(
+            React.createElement(RelatedHomes),
+            document.getElementById('RelatedHomesModule')
+        );
+    </script>
 </body>
+
 </html>
