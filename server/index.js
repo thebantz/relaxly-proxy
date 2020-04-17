@@ -27,11 +27,11 @@ app.all('/listings/*', (req, res) => {
 // });
 
 // related homes module
-app.all('/relatedProperties/*', (req, res) => {
-    proxy.web(req, res, {
-        target: "http://ec2-18-144-29-67.us-west-1.compute.amazonaws.com/"
-    });
-});
+// app.all('/relatedProperties/*', (req, res) => {
+//     proxy.web(req, res, {
+//         target: "http://ec2-18-144-29-67.us-west-1.compute.amazonaws.com/"
+//     });
+// });
 
 // app.get('/relatedProperties/:location', (req, res) => {
 //     proxy.web(req, res, {
